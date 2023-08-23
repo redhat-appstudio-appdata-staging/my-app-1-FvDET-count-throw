@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-q0gs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/my-app-1/devfile-sample-python-basic-q0gs@sha256:4e658576173c81b6ed5d3f534f0230aeafe4b9cc7ee182262b1d729252c58378
+        name: my-python
+        resources: {}
+status: {}
